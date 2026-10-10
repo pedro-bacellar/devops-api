@@ -9,3 +9,5 @@ def health():
 @app.get("/soma")
 def soma(a: int, b: int):
     return {"resultado": a + b}
+
+# Docker Test
